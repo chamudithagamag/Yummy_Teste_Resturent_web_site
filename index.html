@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Taste Restaurant</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+  
+    </style>
+</head>
+<body>
+
+<!-- nav bar  -->
+<header>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5" style="background-color: black;">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" width="100px" class=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link me-2 mr-3" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link me-2 mr-3" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link me-2 mr-3" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link me-2 mr-3" href="#menu">Menu</a></li>
+                    <button class="hero-button">Explore</button>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- hero section -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1  data-aos="fade-down">Welcome to <span class="hero-caption">Yummy Taste </span>Restaurant </h1>
+            <p data-aos="fade-up">Your favorite place for delicious meals and a great dining experience.</p>
+            <button class="hero-button" data-aos="fade-up">Explore Our Menu</button>
+        </div>
+    </div>
+</header>
+
+
+<section class="about-section" id="about">
+    <div class="container">
+        <h2 class="heading" data-aos="fade-down">Who We Are</h2>
+        <p class="subheading" data-aos="fade-up" data-aos-delay="200">Bringing Flavor and Community Together</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
+                    <p>At Flavorite, we believe in creating memorable dining experiences through fresh ingredients and passionate service.</p>
+                    <ul>
+                        <li>Fresh, locally sourced ingredients for every dish</li>
+                        <li>A cozy atmosphere perfect for family gatherings and celebrations.</li>
+                        <li>Our chefs craft unique dishes inspired by global cuisines.</li>
+                    </ul>
+                    <a href="#read-more" class="btn btn-primary btn-read-more" data-aos="zoom-in" data-aos-delay="400">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card-deck">
+                    <div class="card" data-aos="flip-left">
+                        <img class="card-img-top" src="images/about-image.jpg" alt="Card image cap">                     
+                    </div>
+                    <div class="card" data-aos="flip-right" data-aos-delay="300">
+                        <img class="card-img-top" src="images/about-image1.jpg" alt="Card image cap">                     
+                    </div>
+                </div>
+                <div class="card-deck mt-3">
+                    <div class="card" data-aos="zoom-in">
+                        <img class="card-img-top" src="images/about-image1.jpg" alt="Card image cap">                     
+                    </div>
+                    <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                        <img class="card-img-top" src="images/about-image.jpg" alt="Card image cap">                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="services service-details section mb-5" id="services">
+    <div class="container fade-up" data-aos="fade-up">
+        <h2 class="rule mt-lg-3 fw-bold heading text-center" data-aos="fade-down">Services</h2>
+        <div class="blue-rule" data-aos="fade-right" data-aos-delay="200"></div>
+        <p class="rule fw-bold subheading text-center" data-aos="fade-up" data-aos-delay="400">
+            Explore our range of services, crafted to elevate your dining and event experience
+        </p>
+    </div>
+
+    <div class="container fade-up mt-5" data-aos="zoom-in">
+        <div class="row justify-content-between">
+            <div class="col-lg-5 d-flex align-items-center">
+                <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="300">
+                    <li class="nav-item">
+                        <a class="nav-link show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                            <i class="bx bx-bell"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">Gourmet Dining Experience</h4>
+                                <p>
+                                    Savor the finest dishes in a sophisticated atmosphere, prepared by expert chefs using top-quality, fresh ingredients.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                            <i class="bx bx-box"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">Event Catering Services</h4>
+                                <p>
+                                    Offering premium catering for every occasion, from corporate events to private parties, with personalized menus to suit your needs.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                            <i class="bx bx-highlight"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">Convenient Takeaway & Delivery</h4>
+                                <p>
+                                    Get your favorite dishes delivered right to your doorstep or take them to go with our fast, convenient service.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 fade-up" data-aos="flip-left">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="features-tab-1">
+                        <img src="images/tabs-1.webp" alt="" class="img-fluid rounded-4" data-aos="fade-in">
+                    </div>
+                    <div class="tab-pane fade" id="features-tab-2">
+                        <img src="images/tabs-2.jpg" alt="" class="img-fluid rounded-4" data-aos="fade-in">
+                    </div>
+                    <div class="tab-pane fade" id="features-tab-3">
+                        <img src="images/tabs-3.jpg" alt="" class="img-fluid rounded-4" data-aos="fade-in">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <div class="container mt-5 fade-up">
+        <div class="row gy-4 justify-content-between service-item">
+            <div class="col-lg-6" data-aos="zoom-in-right">
+                <img src="images/features-1.webp" class="img-fluid rounded-4 fade-up">
+            </div>
+
+            <div class="col-lg-5 d-flex align-items-center" data-aos="fade-left">
+                <div class="content" style="background-color: #fcd9b923;">
+                    <h3 class="fw-bold mt-1">Indulge in the Ultimate Culinary Journey</h3>
+                    <p class="card-text">
+                        At yummy taste, every dish is a masterpiece made from the finest ingredients. Whether you're enjoying a casual bite or an elegant meal, our chefs craft memorable dining experiences that keep you coming back.
+                    </p>
+                    <a href="#" class="btn more-btn" data-aos="zoom-in">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row gy-4 justify-content-between service-item mt-5 fade-up">
+            <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1" data-aos="fade-right">
+                <div class="content" style="background-color: #fcd9b923;">
+                    <h3>Discover Exceptional Dining with Impeccable Service</h3>
+                    <p>
+                        From curated menus to attentive service, we guarantee an exceptional dining experience that caters to all tastes and occasions.
+                    </p>
+                    <ul>
+                        <li>
+                            <i class="bx bx-tv mx-2" style="color: #ff8616;"></i>Fresh, gourmet meals made with local ingredients.
+                        </li>
+                        <li>
+                            <i class="bx bx-medal mx-2" style="color: #ff8616;"></i>Exclusive wine and beverage pairings for every dish.
+                        </li>
+                        <li>
+                            <i class="bx bx-brightness mx-2" style="color: #ff8616;"></i>A cozy ambiance perfect for intimate and grand occasions.
+                        </li>
+                    </ul>
+                    <br>
+                    <a href="#" class="btn more-btn" data-aos="zoom-in">Learn More</a>
+                    <br>
+                </div>
+            </div>
+
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in-left">
+                <img src="images/features-3.webp" class="img-fluid rounded-4 fade-up" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container fade-up">
+        <div class="row gy-4 justify-content-between service-item mt-5">
+            <div class="col-lg-6" data-aos="fade-right">
+                <img src="images/features-2.jpg" class="img-fluid rounded-4 fade-up">
+            </div>
+
+            <div class="col-lg-5 d-flex align-items-center" data-aos="fade-left">
+                <div class="content" style="background-color: #fcd9b923;">
+                    <h3 class="fw-bold mt-1">Exclusive Dining Room Experience</h3>
+                    <p class="card-text">
+                        Indulge in a tranquil, intimate dining experience in our beautifully designed rooms, perfect for private dinners or special occasions. We prioritize comfort and luxury, offering a peaceful retreat with world-class service.
+                    </p>
+                    <a href="#" class="btn more-btn" data-aos="zoom-in">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="Menus-section" id="menu">
+    <div class="container fade-up">
+        <h2 class="rule mt-lg-3 fw-bold heading text-center" data-aos="fade-down">Our Menu</h2>
+        <div class="blue-rule" data-aos="fade-down" data-aos-delay="200"></div>
+        <p class="rule fw-bold subheading text-center" data-aos="fade-up" data-aos-delay="400">
+            Discover our handpicked selection of flavorful dishes and delightful desserts
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row g-5 mt-3">
+            <!-- Menu Item 1 -->
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="card p-5 menus-item cyan position-relative d-flex align-items-center">
+                    <img src="img/1-item.png" class="img-fluid me-4" width="150px" height="100px">
+                    <div>
+                        <h3>Classic Spaghetti<span style="float:right;color: #ff7b00;">$32.00</span></h3>
+                        <p>Indulge in our signature spaghetti, crafted with fresh ingredients and rich, flavorful sauces.</p>
+                        <a href="#" class="read-more stretched-link" style="color: #ff7b00;">Learn More <i class='bx bx-arrow-back bx-rotate-180'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Item 2 -->
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="card p-5 menus-item cyan position-relative d-flex align-items-center">
+                    <img src="img/2-item.png" class="img-fluid me-4" width="150px" height="100px">
+                    <div>
+                        <h3>Fresh Caesar Salad<span style="float:right;color: #ff7b00;">$19.00</span></h3>
+                        <p>Enjoy crisp greens topped with creamy Caesar dressing, crunchy croutons, and grated Parmesan.</p>
+                        <a href="#" class="read-more stretched-link" style="color: #ff7b00;">Learn More <i class='bx bx-arrow-back bx-rotate-180'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Items -->
+            <div class="col-lg-6 mt-3" data-aos="fade-right">
+                <div class="card p-5 menus-item cyan position-relative d-flex align-items-center">
+                    <img src="img/3-item.png" class="img-fluid" width="150px" height="100px">
+                    <div>
+                        <h3>Grilled Ribeye<span style="float:right;color: #ff7b00;">$30.00</span></h3>
+                        <p>Perfectly grilled ribeye steak paired with seasoned vegetables and creamy mashed potatoes.</p>
+                        <a href="#" class="read-more stretched-link" style="color: #ff7b00;">Learn More <i class='bx bx-arrow-back bx-rotate-180'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-3" data-aos="fade-left">
+                <div class="card p-5 menus-item cyan position-relative d-flex align-items-center">
+                    <img src="img/4-item.jfif" class="img-fluid" width="150px" height="100px">
+                    <div>
+                        <h3>Tiramisu Delight<span style="float:right;color: #ff7b00;">$22.00</span></h3>
+                        <p>Experience the perfect balance of coffee, cream, and cocoa in our classic tiramisu dessert.</p>
+                        <a href="#" class="read-more stretched-link" style="color: #ff7b00;">Learn More <i class='bx bx-arrow-back bx-rotate-180'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-3" data-aos="fade-right">
+                <div class="card p-5 menus-item cyan position-relative d-flex align-items-center">
+                    <img src="img/5-item.jpg" class="img-fluid" width="150px" height="100px">
+                    <div>
+                        <h3>Premium Sushi Platter<span style="float:right;color: #ff7b00;">$19.00</span></h3>
+                        <p>Savor an assortment of fresh sushi rolls, nigiri, and sashimi, prepared by expert chefs.</p>
+                        <a href="#" class="read-more stretched-link" style="color: #ff7b00;">Learn More <i class='bx bx-arrow-back bx-rotate-180'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-3" data-aos="fade-left">
+                <div class="card px-5 py-4 menus-item cyan position-relative d-flex align-items-center">
+                    <img src="img/6-item.jpg" class="img-fluid" width="150px" height="100px">
+                    <div>
+                        <h3>New York Cheesecake<span style="float:right;color: #ff7b00;">$40.00</span></h3>
+                        <p>Rich, creamy cheesecake with a buttery graham crust, topped with seasonal berries.</p>
+                        <a href="#" class="read-more stretched-link" style="color: #ff7b00;">Learn More <i class='bx bx-arrow-back bx-rotate-180'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+    
+<!--====footer section=======-->
+
+  <footer id="footer" class="footer mt-5">
+
+    <div class="container ">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 ">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Yummy Taste</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 colombo Street</p>
+            <p>Sri lanka colombo 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 0909 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@yummytaste.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bx bxl-twitter"></i></a>
+            <a href=""><i class="bx bxl-facebook"></i></a>
+            <a href=""><i class="bx bxl-instagram"></i></a>
+            <a href=""><i class='bx bxl-linkedin'></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Dining</a></li>
+            <li><a href="#">Meals</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Workshops</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <form action="" method="post" class="">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit"  value="Subscribe"></div>
+        
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <hr>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">yummy taste</strong><span>All Rights Reserved</span></p>
+     
+    </div>
+
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+
+<script>
+    AOS.init({
+        duration: 1000, // Animation duration in milliseconds
+        once: true,     // Whether animation should happen only once
+    });
+</script>
+
+</body>
+</html>
